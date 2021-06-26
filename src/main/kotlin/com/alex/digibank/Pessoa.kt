@@ -2,10 +2,10 @@ package com.alex.digibank
 
 class Pessoa {
     var nome: String = "Alexander"
-    val cpf: String = "055.813.279-04"
+    val cpf: String = "111.111.111-11"
 
     inner class Endereco{
-        var rua:String = "Antonio Valenga"
+        var rua:String = "Rua de Teste"
     }
 }
 
