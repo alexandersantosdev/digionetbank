@@ -9,4 +9,5 @@ enum class ClienteTipo(val descricao: String) {
 
 fun main() {
     ClienteTipo.values().forEach {println(it.descricao)}
+
 }
