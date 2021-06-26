@@ -2,9 +2,14 @@ package com.alex.digibank
 
 //outter class - classe externa
 class Pessoa {
+
     var nome: String = "Alexander"
     var cpf: String = "111.111.111-11"
     private set
+
+    constructor()
+
+    fun describe() = "$nome - $cpf"
 
     //classe interna
     /*
@@ -18,9 +23,7 @@ fun main() {
 
     val alex = Pessoa()
 
-    println(alex)
-    println(alex.nome)
-    println(alex.cpf)
+    println(alex.describe())
 
     //println(alex.Endereco().rua)
 
