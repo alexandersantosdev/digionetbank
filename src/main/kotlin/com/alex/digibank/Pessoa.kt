@@ -14,4 +14,5 @@ fun main() {
     println(alex.nome)
     println(alex.cpf)
     println(alex.Endereco().rua)
+
 }
